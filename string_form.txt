@@ -1,21 +1,21 @@
-print('В команде Мастера кода участников: %(team1_num)s !' % {'team1_num':5})
-print('Итого сегодня в командах участников: %(team1_num)s и %(team2_num)x' % {'team1_num':5,'team2_num':6})
-print("Команда Волшебники данных решила задач: {score_2}!". format(score_2=42))
-print("Волшебники данных решили задачи за {team1_time} с !". format(team1_time=18015.2))
+print('Р’ РєРѕРјР°РЅРґРµ РњР°СЃС‚РµСЂР° РєРѕРґР° СѓС‡Р°СЃС‚РЅРёРєРѕРІ: %(team1_num)s !' % {'team1_num':5})
+print('РС‚РѕРіРѕ СЃРµРіРѕРґРЅСЏ РІ РєРѕРјР°РЅРґР°С… СѓС‡Р°СЃС‚РЅРёРєРѕРІ: %(team1_num)s ГЁ %(team2_num)x' % {'team1_num':5,'team2_num':6})
+print("РљРѕРјР°РЅРґР° Р’РѕР»С€РµР±РЅРёРєРё РґР°РЅРЅС‹С… СЂРµС€РёР»Р° Р·Р°РґР°С‡: {score_2}!". format(score_2=42))
+print("Р’РѕР»С€РµР±РЅРёРєРё РґР°РЅРЅС‹С… СЂРµС€РёР»Рё Р·Р°РґР°С‡Рё Р·Р° {team1_time} Г± !". format(team1_time=18015.2))
 score_1=40
 score_2=42
-print(f'Команды решили {score_1} и {score_2} задач.')
+print(f'РљРѕРјР°РЅРґС‹ СЂРµС€РёР»Рё {score_1} Рё {score_2} Р·Р°РґР°С‡.')
 if score_1 > score_2 or score_1 == score_2 and team1_time > team2_time:
-    challenge_result = 'Победа команды Мастера кода!'
+    challenge_result = 'РџРѕР±РµРґР° РєРѕРјР°РЅРґС‹ РњР°СЃС‚РµСЂР° РєРѕРґР°!'
 elif score_1 < score_2 or score_1 == score_2 and team1_time < team2_time:
-    challenge_result = 'Победа команды Волшебники Данных!'
+    challenge_result = 'РџРѕР±РµРґР° РєРѕРјР°РЅРґС‹ Р’РѕР»С€РµР±РЅРёРєРё Р”Р°РЅРЅС‹С…!'
 else:
-    challenge_result = 'Ничья!'
+    challenge_result = 'РќРёС‡СЊСЏ!'
 
-print(f'Результат битвы: {challenge_result}')
+print(f'Р РµР·СѓР»СЊС‚Р°С‚ Р±РёС‚РІС‹: {challenge_result}')
 tasks_total=82
 time_avg='350,4'
-print(f"Сегодня было решено {tasks_total} задач, в среднем по {time_avg} секунды на задачу!.")
+print(f"РЎРµРіРѕРґРЅСЏ Р±С‹Р»Рѕ СЂРµС€РµРЅРѕ {tasks_total} Р·Р°РґР°С‡, РІ СЃСЂРµРґРЅРµРј РїРѕ {time_avg} СЃРµРєСѓРЅРґС‹ РЅР° Р·Р°РґР°С‡Сѓ!.")
 
 team1_num = 5
 team2_num = 6
